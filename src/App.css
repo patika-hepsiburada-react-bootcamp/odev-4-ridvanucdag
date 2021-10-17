@@ -1,0 +1,35 @@
+.app_root {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: #00728c; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #00728c 0%,
+    #3cc8bf 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #00728c 0%,
+    #3cc8bf 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #00728c 0%,
+    #3cc8bf 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00728c', endColorstr='#3cc8bf',GradientType=0 ); /* IE6-9 */
+}
+.app_body {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  width: 500px;
+  min-width: 350px;
+}
+
+@media screen and (max-width: 500px) {
+  .app_body {
+    width: auto;
+  }
+}
